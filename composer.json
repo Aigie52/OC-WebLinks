@@ -1,5 +1,5 @@
 {
-    "name": "weblinks",
+    "name": "oc/weblinks",
     "description": "Web links management application",
     "license": "proprietary",
     "require": {
