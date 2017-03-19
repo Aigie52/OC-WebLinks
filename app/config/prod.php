@@ -7,6 +7,9 @@ $app['db.options'] = array(
     'host'     => '127.0.0.1',
     'port'     => '3306',
     'dbname'   => 'weblinks',
-    'user'     => 'weblinks_user',
-    'password' => 'secret',
+    'user'     => 'root',
+    'password' => '',
 );
+
+// define log level
+$app['monolog.level'] = 'WARNING';

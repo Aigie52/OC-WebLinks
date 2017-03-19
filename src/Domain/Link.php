@@ -25,6 +25,12 @@ class Link
      */
     private $url;
 
+    /**
+     * Link author
+     * @var User
+     */
+    private $author;
+
     public function getId() {
         return $this->id;
     }
@@ -47,5 +53,23 @@ class Link
 
     public function setUrl($url) {
         $this->url = $url;
+    }
+
+    /**
+     * @return User
+     */
+    public function getAuthor()
+    {
+        return $this->author;
+    }
+
+    /**
+     * @param User $author
+     * @return $this
+     */
+    public function setAuthor(User $author)
+    {
+        $this->author = $author;
+        return $this;
     }
 }

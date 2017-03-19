@@ -2,3 +2,16 @@ body {
     padding-top: 70px; 
 }
 
+#errorPanel {
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.adminTable {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#links > div > table > tbody > tr > td > a {
+    margin-bottom: 5px;
+}
