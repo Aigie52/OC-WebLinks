@@ -1,4 +1,7 @@
 {
+    "name": "weblinks",
+    "description": "Web links management application",
+    "license": "proprietary",
     "require": {
         "silex/silex": "^2.0",
         "doctrine/dbal": "^2.5",
